@@ -12,9 +12,9 @@ public class Divisble {
 
     double Balance = 1000000000;
     double Intrest = 0.05 * Balance;
-    double TotalBalance = Intrest;
-    System.out.println("Aftre adding intrest total balance is: " + TotalBalance);
-    int TotalBal = (int) TotalBalance;
+    Balance += Intrest;
+    System.out.println("Aftre adding intrest total balance is: " + Balance);
+    int TotalBal = (int) Balance;
     System.out.println("Total Balance is: " + TotalBal);
   }
 }
