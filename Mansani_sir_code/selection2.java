@@ -5,6 +5,7 @@ class selection2 {
 			int a = 0;
 			if(a>0)
 				System.out.println("Positive number");
+			
 			else
 				System.out.println("Negative number");
 			

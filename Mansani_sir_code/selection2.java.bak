@@ -3,11 +3,13 @@ class selection2 {
 	    public static void main(String args[]){
 			
 			int a = 0;
-			if(a>0){
+			if(a>0)
 				System.out.println("Positive number");
-			}else{
+			else
 				System.out.println("Negative number");
-			}
+			
+			System.out.println("End");
+			
 		}
 		
 }
